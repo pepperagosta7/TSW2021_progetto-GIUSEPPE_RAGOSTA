@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Curriculum</title>
+</head>
+<body>
+  <h2> Inserisci i dati qui sotto!</h2>
+  
+  <form action = "Curriculum" method = "post">
+  <fieldset>
+  <legend> Dati personali</legend>
+  <p>
+    Nome :       <input type = "text" name = "nome" placeholder = "nome" required> <br><br>
+    Cognome :    <input type = "text" name = "cognome" placeholder = "cognome" required> <br><br>
+    Indirizzo :  <input type = "text" name = "indirizzo" placeholder = "indirizzo" required> <br><br>
+  </p>
+  </fieldset>
+  <fieldset> 
+  <legend>Informazioni aggiuntive</legend>
+  <p>
+    Attività lavorativa :<br><br> <textarea name = "extra1" rows = "10" cols = "30"> </textarea> <br><br>
+    Competenze: <br>
+    <input type = "checkbox" name = "competenze" value = "Programmatore"> Programmatore <br>
+    <input type = "checkbox" name = "competenze" value = "Tecnico Informatico"> Tecnico Informatico<br>
+    <input type = "checkbox" name = "competenze" value = "Software Developer"> Software Developer <br>
+    <br><br>
+    Altre competenze : <br><br> <textarea name = "extra2" rows = "10" cols = "30"> </textarea> <br><br>
+    
+    Lingua: <br><br>
+	    <select name = "Lingua">
+	      <option value = "Inglese"> Inglese </option>
+	      <option value = "Tedesco"> Tedesco</option>
+	      <option value = "Russo"> Russo </option>
+	      <option value = "Giapponese"> Giapponese </option>
+	    </select>
+    
+    Conoscenza delle lingue: <br>
+     Mediocre <input type = "radio" name = "conoscenza" value = "Mediocre"><br>
+     Buona <input type = "radio" name = "conoscenza" value = "Buona"><br>
+     Ottima <input type = "radio" name = "conoscenza" value = "Ottimo"><br><br>   
+  </p> 
+  </fieldset>
+    <input type = "submit" value = "Registrati">
+    <input type = "reset" value = "Azzera">
+  </form>
+</body>
+</html>
