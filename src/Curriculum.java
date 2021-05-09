@@ -22,7 +22,7 @@ public class Curriculum extends HttpServlet
     out.print("Cognome: " + cognome + "<br>");
     String indirizzo = request.getParameter("indirizzo");
     out.print("Indirizzo: " + indirizzo + "<br>" );
-    String attività = request.getParameter("altro1");
+    String attività = request.getParameter("extra1");
     out.print("Attività : " + attività + "<br>");
     String[] competenze = request.getParameterValues("competenze");
     out.print("Competenze: ");
@@ -33,7 +33,7 @@ public class Curriculum extends HttpServlet
       
     }
     out.print("<br>");
-    String altro = request.getParameter("altro");
+    String altro = request.getParameter("extra2");
     out.print("Altre Competenze : " + altro + "<br>");
     String lingua = request.getParameter("lingua");
     out.print("Lingua: " + lingua + "<br>");
