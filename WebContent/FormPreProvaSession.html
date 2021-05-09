@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Session Form</title>
+</head>
+<body>
+    <h3> Inserisci i dati nei campi sottostanti.</h3>
+
+    <form action="ServletSessionHomework" method= "Post">
+        <p>
+        <fieldset>
+            Nome <input type = "text" name = "nome" placeholder = "Nome" required> <br>
+            Cognome <input type = "text" name = "cognome" placeholder = "Cognome" required> <br>
+            Ruolo <br>
+            <input type = "radio" name = "ruolo" value = "Impiegato" required> Impiegato <br>
+            <input type = "radio" name = "ruolo" value = "Manager" required> Manager <br>
+            <input type = "radio" name = "ruolo" value = "Executive" required> Executive <br>
+
+            <input type = "submit" value = "Registrati"> &nbsp;
+            <input type = "reset" value = "Resetta">
+        </fieldset>
+        </p>
+    </form>
+</body>
+</html>
